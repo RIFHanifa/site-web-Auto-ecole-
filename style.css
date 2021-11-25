@@ -1,0 +1,449 @@
+/*__________________________________________________________________________________ page de site web______________________________________________________________________________________*/
+body{
+	background-image: url(Images/3.jpg);
+	background-attachment:fixed;
+}
+
+
+
+
+/*_______________________________________________________________________________________ header____________________________________________________________________________________________*/
+.header{ 
+	background-color:#2E2161;
+	width:1500px;
+	height:110px;
+	text-align:center;
+	/*background-image:url(Images/a1.jpg);*/
+	border-radius:30px;
+	border:3px solid;
+}
+
+#logo{
+	float:left;
+	margin:2px 15px 0px 5px;
+}
+#logo img{
+	width:100px;
+	height:100px;
+	border:3px solid red;
+	border-radius:30px;
+}
+
+#button ul{
+	list-style:none;
+}
+#button ul li{
+	background-color:#660000;
+	width:140px;
+	height:25px;
+	text-align:center;
+	float:left;
+	color:white;
+	font-size:18px;
+	position:relative;
+	border-radius:30px 0;
+	display:inline-block;
+}
+#button ul li{
+	border: 5px solid white;
+}
+#button ul li:hover{
+	background-color:#BA0B08;
+	box-shadow:0px 20px 50px 0px red;
+}
+#button ul ul{
+	display:none;
+	margin:5px;
+}
+#button ul li:hover > ul{
+	display:block;
+	color:#000000;
+}
+
+a{text-decoration: none;}
+a:link, a:visited {color:#FFFFFF;}
+a:hover, a:active {color:#0000FF;}
+
+h1 font {
+	box-shadow:0px 5px 50px 0px;
+}
+br{
+	font-size:5px;
+}
+
+*{
+margin:auto;
+padding:0px;
+}
+
+
+
+
+
+
+
+/*_______________________________________________________________________________________ main____________________________________________________________________________________________*/
+.main{
+	background-color:#ffffff;
+	margin:auto;
+	padding:5px 5px 5px 5px;
+	font-size:25px;
+	width:1500px;
+	border:3px solid;
+	height:100%;
+	float:center;
+	color:#000000;
+	border-radius:25px;
+}
+
+#marquee{	
+	background-image:url(Images/a1.jpg);
+	border:3px solid;
+	border-radius:25px;
+	box-shadow:0px 15px 50px 0px;
+}
+
+#marquee img{
+	border:3px solid;
+	border-radius:30px;
+}
+
+#butt-main ul {
+	background-color:#2E2161;
+	width:150px;
+	height:1400px;
+	float:left;
+	font-size:18px;
+	border-radius:20px 0;
+	padding:15px;
+	margin:10px;
+	border:3px solid;
+}
+#butt-main ul a{
+	color:white;
+}
+#butt-main ul a:hover{
+	color:blue;
+}
+
+#MenuCode ul li{	
+	background-color:#2E2161;
+	border:5px solid;
+	width:95px;
+	height:20px;
+	float:left;
+	color:white;
+	font-size:18px;
+	text-align:center;
+	border-radius:10px 0;
+	padding:8px;
+	margin:3px;
+}
+#MenuCode ul li:hover{
+	background-color:#01A9DB;
+	box-shadow:0px 20px 40px 0px blue;
+}
+
+#img{
+	width:230px;
+	background-color:#2E2161;
+	margin:20px 5px 15px auto;
+	padding:10px;
+	border:3px solid;
+	height:1400px;
+	border-radius:0  20px;
+}
+#img img{
+	width:225px;
+	border:3px solid red;
+	border-radius:30px;
+}
+#img marquee{
+	height:1400px;
+}
+
+#para{
+	padding:0 15px 0 15px;
+	background-color:#FFFFFF;
+	width:935px;
+	height:auto;
+	margin:230px 5px 5px 5px;
+	color:#000000;
+	box-shadow:-0px 20px 200px 50px;
+	border-radius: 30px;
+	border:3px solid;
+	font-family: lucida Calligraphy;
+}
+
+
+#para1{
+	background-color:#A9E2F3;
+	width:990px;
+	height:100%;
+	margin:20px 5px 5px 15px;
+	float:left;
+	color:#000000;
+	text-align:center; 
+}
+
+#para2{
+	background-color:#A9E2F3;
+	width:790px;
+	height:300px;
+	margin:20px 5px 5px 15px;
+	float:left;
+	background-position: bottom left;
+	text-align:block; 
+}
+
+#para3{
+	background-color:#FFFFFF;
+	width:930px;
+	height:auto;
+	margin:20px 5px 5px 15px;
+	border:5px solid;
+	border-radius:20px 0;
+	padding:5px 0 0 15px;
+	box-shadow:0px 15px 200px 0px;
+}
+
+#para4{
+	background-color:#FFFFFF;
+	width:890px;
+	height:100%;
+	margin:20px 5px 5px 15px;
+	float:left;
+	color:#000000;
+	text-align:left; 
+}
+
+#para5{
+	background-color:#FFFFFF;
+	width:790px;
+	height:400px;
+	margin:20px 5px 5px 15px;
+	float:left;
+	color:#000000;
+	text-align:left; 
+}
+
+#para6{}
+#para7{
+	color:white;
+	background-color:#660000;
+	padding:15px;
+	border-radius:20px 0;
+	margin: 30px 5px 0 5px;
+	width:890px;
+	height:100%;
+	border:3px solid;
+}
+
+#para-menu{
+	width: 860px;
+	height:55px;
+	border-radius: 30px 30px 0 0;
+	border:solid;
+	padding:0 0 0 100px;
+	margin:5px 0 150px 7px;
+}
+#para-menu center h4 a{
+	color:red;
+}
+#para-menu h4 a:hover{
+	color:green;
+}
+
+#fondimg{
+	background-image: url(Images/fond.png);
+	width: 983px;
+	height:1350px;
+	float :left;
+	margin:15px;
+	border:solid red;
+}
+#fondimg center h4 a{ 
+	color:blue;
+}
+#fondimg center h4 a:hover{
+	color:green;
+	box-shadow:0px 15px 100px 0px; 
+}
+
+
+#gallery{
+	border: 2px solid;
+	width:930px;
+	float:left;
+	margin:20px;
+	box-shadow:0px 15px 200px 0px;
+}
+table{
+	margin:auto;
+	border: 2px solid;
+	float:center;
+	padding: block;
+	box-shadow:0px 10px 300px 0px;
+}
+td{
+	border: 1px solid;
+}
+
+tr img:hover{
+	width:300px;
+	height:300px;
+	box-shadow:0px 15px 100px 0px;
+}
+
+
+#Contact{
+	padding: 100px; 	
+	width:650px;
+	height:auto;
+	margin:20px;
+	border-radius:20px 0 0 0;
+	background-image: url(Images/3.jpg);
+	float:left;
+	font-size:17px;
+	box-shadow:20px 15px 300px 80px;
+}
+.titr{
+	font-size: 50px;
+	text-align:center;
+	text-decoration:underline;
+}
+.btn{
+	border-radius: 0 25px 25px 0;
+	width:170px;
+	height:23px;
+	background-color: #4269f9;
+	font-size:17px;
+}
+input{
+	width:600px;
+    height:25px;
+    font-size:18px;
+	border-radius:0 25px 0 0;
+}
+label{
+	font-size:17px;
+}
+animation-name: {
+	width:5px;
+}
+#sexe{
+	width: 0%;
+	height: 20px;
+	margin:0;
+	float:left;
+}
+
+form img{
+	float:left;
+	margin:-100px 0 0 310px;
+	border-radius:10px;
+	width:900px;
+}
+
+
+
+
+
+
+
+/*_______________________________________________________________________________________ footer____________________________________________________________________________________________*/
+.footer{
+	background-image:url(Images/a1.jpg);
+	width:1500px;
+	height:50px;
+	text-align:center;
+	border:3px solid;
+	border-radius:25px;
+	font-size:25px;
+}
+.footer a{
+	color:black;
+}
+.footer a:hover{
+	color:blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
